@@ -1,0 +1,13 @@
+body {
+	background-image: url(../img/back.png);
+}
+.navbar-brand img{
+	width: 100px;
+	height: 100px;
+}
+.back {
+	background-image: url(../img/background.jpg);
+}
+.container-fluid{
+	text-align: center;
+}
