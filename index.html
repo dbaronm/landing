@@ -8,7 +8,7 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:800,400' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/main.css">
+	<link id="theme" rel="stylesheet" href="css/main.css">
 	
 </head>
 <body>
@@ -52,13 +52,10 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Theme <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#" id="black">Black theme</a></li>
+            <li><a href="#" id="white">White theme</a></li>
           </ul>
         </li>
       </ul>
@@ -67,14 +64,10 @@
 </nav>
 	<section>
 		<div class="container-fluid back">
-			<h1>WELCOME</h1>
-			 <a href="index.html#for"><button>Contáctanos</button></a>
+			<h1>BIENVENIDO</h1>
+			 <a href="index.html#formu"><button>Contáctanos</button></a>
 		</div>
 	</section>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<section>
 		<div class="container">
 		<div class="row">
@@ -102,41 +95,41 @@
   <section>
     <div class="container">
       <h2>¡Contáctanos!</h2>
-      <form id="for" class="formulario" action="">
+      <form name="formu" id="formu" class="formulario" action="valida.html" method="POST">
         <div class="row">
           <div class="col-md-6">
             <label for="">
               Nombre
-              <input type="text" placeholder="Tu nombre completo">
+              <input name="nombre" id="nombre" type="text" placeholder="Tu nombre completo">
             </label>
             <label for="">
               Correo
-              <input type="text" placeholder="nombre@dominio">
+              <input name="correo" id="correo" type="text" placeholder="nombre@dominio">
             </label>
             <label for="">
               Teléfono
-              <input type="text" placeholder="55-5555-5555">
+              <input name="telefono" id="telefono" type="text" placeholder="55-5555-5555">
             </label>
             <div class="row">
               <p>Fecha de nacimiento</p>
               <div class="col-md-4">
                 <p>Día:</p>
-                <input type="number">
+                <input name="dia" id="dia" type="number">
               </div>
               <div class="col-md-4">
                 <p>Mes</p>
-                <input type="number">
+                <input name="mes" id="mes" type="number">
               </div>
               <div class="col-md-4">
                 <p>Año</p>
-                <input type="number">
+                <input name="ano" id="ano" type="number">
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <label for="">
               Comentarios
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
               <button>Enviar</button>
             </label>
           </div>
@@ -148,6 +141,12 @@
   <p>Landing Page</p>
   <p>Reporta algún problema del sitio <a href="mailto:david.baron@softtek.com">
   Soporte</a>.</p>
-</footer> 
+</footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/valida.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

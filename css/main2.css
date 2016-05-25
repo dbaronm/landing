@@ -1,5 +1,5 @@
 body {
-	background-image: url(../img/back.png);
+	background-image: url(../img/wback.jpg);
 }
 .navbar-brand img {
 	width: 100px;
@@ -26,8 +26,8 @@ nav {
 }
 .container-fluid button {
 	border-radius: 0 0 0 10px;
-	background-color: white;
-	color: #3A3A3A;
+	background-color: #3A3A3A;
+	color: white;
 	border: 0;
 	width: 120px;
 	height: 40px;
@@ -35,8 +35,8 @@ nav {
 }
 .container-fluid button:hover {
 	border-radius: 15px;
-	background-color: #3A3A3A;
-	color: white;
+	background-color: white;
+	color: #3A3A3A;
 	border: 3px;
 	width: 120px;
 	height: 40px;
@@ -46,11 +46,11 @@ nav {
 
 }
 .col-md-4 {
-	color:white;
+	color:#3A3A3A;
 }
 h2 {
 	font-family: 'Raleway', sans-serif;
-	color:white;
+	color:#3A3A3A;
 	text-align: center;
 }
 p {
@@ -62,13 +62,13 @@ p {
 }
 input{
 	width: 100%;
-	background-color: #3A3A3A;
+	background-color: white;
 	border-radius: 8px;
 	padding-left: 5%;
 }
 textarea {
 	width: 100%;
-	background-color: #3A3A3A;
+	background-color: white;
 	border-radius: 8px;
 	margin-bottom: 20px;
 	border: 0;
@@ -76,7 +76,7 @@ textarea {
 }
 .formulario label {
 	display: block;
-	color: white;
+	color: #3A3A3A;
 }
 .formulario input {
 	display: block;
@@ -85,8 +85,8 @@ textarea {
 }
 .formulario button {
 	border-radius: 0 0 0 10px;
-	background-color: white;
-	color: #3A3A3A;
+	background-color: #3A3A3A;
+	color: white;
 	border: 0;
 	width: 80%;
 	height: 40px;
@@ -97,8 +97,8 @@ textarea {
 }
 .formulario button:hover {
 	border-radius: 15px;
-	background-color: #3A3A3A;
-	color: white;
+	background-color: white;
+	color: #3A3A3A;
 	border: 3px;
 	width: 80%;
 	height: 40px;
@@ -107,7 +107,7 @@ textarea {
 }
 .formulario p {
 	font-family: 'Raleway', sans-serif;
-	color:white;
+	color:#3A3A3A;
 	font-weight: 600;
 }
 a {
