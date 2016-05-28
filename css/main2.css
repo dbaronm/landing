@@ -1,7 +1,11 @@
 body {
 	background-image: url(../img/wback.jpg);
 }
-.navbar-brand img {
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-brand > img {
 	width: 100px;
 	height: 100px;
 }
@@ -17,6 +21,13 @@ body {
 nav {
 	margin:0 !Important;
 	padding:0;
+	position: static;
+}
+.carousel-inner {
+	height: 100%;
+	max-height: 500px;
+	width: 80%;
+	margin: 0 auto;
 }
 .container-fluid h1 {
 	font-size: 60px;
@@ -113,4 +124,34 @@ textarea {
 a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
+}
+.btn--modal__container {
+	padding-top: 20px;
+    text-align: center;
+}
+.maps p{
+	color: #3A3A3A;
+	text-align: center;
+}
+.maps button {
+	border-radius: 0 0 0 10px;
+	background-color: #3A3A3A;
+	color: white;
+	border: 0;
+	width: 20%;
+	height: 40px;
+	position: relative;
+	margin: 0 auto;
+	transition: 0.2s;
+	display: block;
+}
+.maps button:hover {
+	border-radius: 15px;
+	background-color: white;
+	color: #3A3A3A;
+	border: 3px;
+	width: 20%;
+	height: 40px;
+	position: relative;
+	margin: 0 auto;
 }
